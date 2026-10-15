@@ -21,7 +21,7 @@ services:
             - proxy-internal
 
     certbot:
-        image: certbot/dns-cloudflare:v5.3.1
+        image: certbot/dns-cloudflare:v5.8.0
         command: >
             certonly
             --non-interactive
